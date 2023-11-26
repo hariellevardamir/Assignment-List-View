@@ -1,30 +1,26 @@
 # Assignment List View
 
-Assignment List View is an RecyclerView to calculate images loading times.
+Bu uygulama, bir liste içinde yüklenen resimlerin sürelerini hesaplamak için kullanılır.
 
-## Usage
-To use in an XML layout:
- - Include The Library into your project
- - Create the Assignment List View as `androidx.recyclerview.widget.RecyclerView`
+## Kullanım
 
-Download
---------
-Use Gradle:
+1. Uygulamayı başlatın.
+2. Liste ekranında resimleri göreceksiniz.
+3. Her resmin yüklenme süresi Log ekrannında "loading_time" tag filteelemesi ile görüntülenir.
 
-- Project gradle file
-```gradle
-repositories {
-  google()
-  mavenCentral()
-  maven { url 'https://jitpack.io' }
-}
-```
-- App gradle file
+## Özellikler
 
-```
-dependencies {
-  implementation 'com.github.enescolak:AssignmentListView:1.0.0'
-}
-```
+- Resim yükleme sürelerini otomatik olarak hesaplar.
 
-# deneme
+## Teknolojiler ve Kütüphaneler
+
+- Kotlin programlama dili.
+- Glide ile resimleri yükleme.
+- RecyclerView kullanarak listeleme.
+
+## Kurulum
+
+Proje dosyalarını bilgisayarınıza klonlayın veya ZIP olarak indirin. Android Studio'da açın ve emülatör veya fiziksel bir cihaz üzerinde çalıştırın.
+
+```bash
+git clone https://github.com/hariellevardamir/Assignment-List-View.git
